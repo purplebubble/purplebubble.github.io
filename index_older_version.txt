@@ -30,7 +30,7 @@ function sleep( sleepDuration ){
     while(new Date().getTime() < now + sleepDuration){ /* do nothing */ } 
 }
 
-var votes = 12;
+var votes = 20;
 var time = -1;
 
 setInterval(function () {
@@ -45,7 +45,7 @@ setInterval(function () {
 setInterval(function () {
     select();
 	
-	if(time == -1 && votes >= 12)
+	if(time == -1 && votes >= 20)
 	{
 		votes = 1;
 		time = 60;
